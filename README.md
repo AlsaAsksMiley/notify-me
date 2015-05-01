@@ -31,7 +31,7 @@ Option | Description
 
 #### Examples
 Assuming Notify-Me is accessible from PATH locations:    
- `ffmpeg ... ; $? | Notify-Me.ps1 -M $("{0}" -f $(if($?){"Success!"}else{"Failure!"}))`    
+ `ffmpeg ... ; $? | Notify-Me -M $("{0}" -f $(if($?){"Success!"}else{"Failure!"}))`    
  Show notification with text "Success!" or "Failure!" depending on FFmpeg exit code.    
- `robocopy .\backup .\share\backup /S ; Notify-Me.ps1 -T Robocopy "Finished copying"`    
+ `robocopy .\backup .\share\backup /S ; Notify-Me -T Robocopy "Finished copying"`    
 Show notification with text "Finished copying" after `robocopy` exits.

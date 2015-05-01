@@ -31,7 +31,7 @@ Notify-Me -H
 
 #### Примеры
 Предполагая, что Notify-Me доступен из какого-то расположения из Path:    
- `ffmpeg ... ; $? | Notify-Me.ps1 -M $("{0}" -f $(if($?){"Успех!"}else{"Ошибка!"}))`    
+ `ffmpeg ... ; $? | Notify-Me -M $("{0}" -f $(if($?){"Успех!"}else{"Ошибка!"}))`    
  Покажет уведомление с текстом "Успех!" или "Ошибка!" в зависимости от кода возврата FFmpeg.    
- `robocopy .\backup .\share\backup /S ; Notify-Me.ps1 -T Robocopy "Копирование завершено"`    
+ `robocopy .\backup .\share\backup /S ; Notify-Me -T Robocopy "Копирование завершено"`    
 Покажет уведомление с текстом "Копирование завершено" после окончания работы `robocopy`.
