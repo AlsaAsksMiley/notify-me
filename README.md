@@ -13,12 +13,12 @@ Notify-Me -H
 
 Option | Description
 ----|----
--M | Notification message
--T | Notification title
--S | Time in milliseconds for notification to be shown. Default is 10000 ms. Will affect only if no actions were made in last 1-2 minutes.
--I | Icon type. Available types are 'None', 'Info', 'Warning', 'Error'
--D | Output some debug data and show notification.
--H | Show this help
+`-M` | Notification message
+`-T` | Notification title
+`-S` | Time in milliseconds for notification to be shown. Default is 10000 ms. Will affect only if no actions were made in last 1-2 minutes.
+`-I` | Icon type. Available types are 'None', 'Info', 'Warning', 'Error'
+`-D` | Output some debug data and show notification.
+`-H` | Show this help
 
 
 #### Examples
