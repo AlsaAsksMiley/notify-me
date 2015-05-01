@@ -13,7 +13,7 @@ Notify-Me -H
 #### System Requirements
 * Microsoft .NET Framework 3 and above
 * At least `RemoteSigned` [execution policy](https://technet.microsoft.com/en-us/library/ee176961.aspx) must be set
-* Maybe environment variable `PATH` editing would be needed
+* It's highly recommended to put script into easy accessible location, which is in PATH
 
 #### Installation
 No need to install — just download it and put in preferred location.
