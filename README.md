@@ -1,4 +1,4 @@
-# Notify-Me
+# Notify-Me | [[RU]](README.RU.md)
 Simple PowerShell script which produces notifications.
 
 Usage (in PowerShell):
