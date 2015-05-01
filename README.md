@@ -1,5 +1,5 @@
 # Notify-Me
-Simple PowerShell script for notifying user.
+Simple PowerShell script which produces notifications.
 
 Usage (in PowerShell):
 ```
